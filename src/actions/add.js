@@ -1,0 +1,1 @@
+module.exports = async (x, y) => x + y;

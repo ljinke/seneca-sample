@@ -1,0 +1,47 @@
+Arguments: 
+  /Users/liujin/.nvm/versions/node/v8.9.1/bin/node /Users/liujin/.yarn/bin/yarn.js add senecajs
+
+PATH: 
+  /Users/liujin/.yarn/bin:/Users/liujin/.config/yarn/global/node_modules/.bin:/Users/liujin/.jenv/shims:/Users/liujin/.jenv/bin:/Users/liujin/.rbenv/shims:/Users/liujin/.rbenv/bin:/Users/liujin/.nvm/versions/node/v8.9.1/bin:/Users/liujin/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/opt/X11/bin:/Applications/Postgres.app/Contents/Versions/latest/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  8.9.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/senecajs: Not found
+      at Request.params.callback [as _callback] (/Users/liujin/.yarn/lib/cli.js:66091:18)
+      at Request.self.callback (/Users/liujin/.yarn/lib/cli.js:129590:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/Users/liujin/.yarn/lib/cli.js:130562:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/Users/liujin/.yarn/lib/cli.js:130484:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  {
+    "name": "seneca-rabbitmq",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
